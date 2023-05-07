@@ -6,7 +6,7 @@ import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import java.io.InputStream
 import java.io.OutputStream
 
-class LambdaRequestHandler : RequestStreamHandler {
+class LambdaRequestHandlerRename4 : RequestStreamHandler {
     private val mapper = jacksonObjectMapper()
 
     override fun handleRequest(inputStream: InputStream?, output: OutputStream?, context: Context?) {
